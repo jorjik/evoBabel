@@ -5,16 +5,17 @@
             'top' : '1px',
             'right' : '1px',
             'background' : '#f1f1f1',
-            'width':'172px',
+            'width':'192px',
             'border':'solid 1px #dddddd',
-            'padding':'1px'
+            'padding':'1px',
+            'z-index': 99
         }
     });
     $$('#eB_relations a').set({
         styles:{
-            'width':'158px',
+            'width':'178px',
             'display':'block',
-            'height':'20px',
+            'height':'36px',
             'line-height':'20px'
         }
     });
@@ -25,7 +26,7 @@
     });
     $$('.eB_current').set({
         styles:{
-            'width':'158px',
+            'width':'178px',
             'display':'block',
             'height':'20px',
             'line-height':'20px',
